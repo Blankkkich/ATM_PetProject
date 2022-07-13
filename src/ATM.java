@@ -4,12 +4,14 @@
 import java.util.Scanner;
 
 class ATM {
+
     public static void main(String[] args) {
         int balance = 50000;
         int withdraw, deposit;
         Scanner sc = new Scanner(System.in);
         while (true) {
-            System.out.println("Welcome to ATM ... ");
+            System.out.println("Welcome to ATM " +
+                    "\nChoose needed operation ");
             System.out.println("Select 1 for Withdraw");
             System.out.println("Select 2 for Deposit");
             System.out.println("Select 3 for Check Balance");
